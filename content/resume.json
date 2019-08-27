@@ -1,0 +1,133 @@
+[
+  {
+  	"title": "Employment",
+  	"experience": [
+  		{
+  			"title": "Simply Business",
+  			"subtitle": "Full-stack Software Engineer",
+        "description": ["Automated the deploy process for an AWS CloudSearch database using Jenkins and the AWS Ruby SDK. This replaced a painfully manual engineering process and significantly improved developer experience.",
+          "Built the company's first integration with third party insurers' RESTful APIs. This involved significant internal changes to a legacy monolithic application to support this new capability.",
+          "Practiced Test Driven Development while refactoring and improving test coverage of internal Ruby gems",
+          "Managed large-scale migrations of years worth of data on our production MongoDB instance",
+          "Presented at tech-wide meetings on debugging local Docker environments and on Git best practices",
+          "Attended conferences and trainings including Serverless Days, RailsConf, and Ruby Conference Kiev"
+        ],
+  			"dates": "Oct. 2018 - present",
+        "link": "http://www.simplybusiness.com/",
+  			"tags": ["AWS","Ruby","Rails","MongoDB","Serverless","Agile Methods","Docker","Test Driven Development","RESTful APIs","Jenkins"]
+  		},
+  		{
+  			"title": "Turo",
+  			"subtitle": "Senior Back-end Software Engineer",
+        "description": ["Built one of the company's first microservices. This involved Dockerizing and migrating our currency exchange service from our monolithic application and deploying it in Kubernetes. It established several patterns that Microservices currently in development are now following.",
+          "Replaced a third party payment processing service. This high-risk 'payments exorcism' involved refactoring thousands of lines of code and extremely careful testing, as it touched all of the most central parts of the product.",
+          "Designed and implemented a Spring-component architecture pattern to handle data downloading to comply with General Data Protection Regulations (GDPR).",
+          "Developed and augmented RESTful APIs and SQL data models that significantly improved overall customer experience."],
+  			"dates": "Oct. 2016 - Oct. 2018",
+        "link": "https://turo.com/",
+  			"tags": ["Java","Spring","Hibernate","Kubernetes","Docker","SQL","Agile Methods","RESTful APIs","Microservices"]
+  		},
+      {
+        "title": "Walt Disney Parks and Resorts",
+        "subtitle": "Engineering Professional Intern",
+        "description": ["Desktop app development to interface with handheld closed captioning devices in Python","Wearable technology prototyping with Bluetooth and IR communications in C and the Arduino environment","Industrial controls system design and component specification in AutoCAD Electrical for theme park ride safety systems"],
+        "dates": "Jan. 2015 - Aug. 2015",
+        "link": "https://jobs.disneycareers.com/professional-internships",
+        "tags": ["Python"]
+      },
+      {
+        "title": "Dupont Pioneer",
+        "subtitle": "Data Science Intern",
+        "description": ["Image processing machine learning research using Python to determine the health of corn fields"],
+        "dates": "May 2014 - Jul. 2014",
+        "link": "https://www.pioneer.com/landing",
+        "tags": ["Python"]
+      }
+  	]
+  },
+  {
+    "title": "Education",
+    "experience": [
+      {
+        "title": "Olin College of Engineering",
+        "description": ["BS Electrical and Computer Engineering"],
+        "dates": "Class of 2016",
+        "link":"https://www.olin.edu",
+        "tags": ["Python","Javascript","SQL"]
+      },
+      {
+        "title": "Pontificia Universidad Católica de Valparaíso",
+        "description": ["Concentration in Spanish language and culture"],
+        "dates": "Fall 2014",
+        "link":"http://www.pucv.cl/",
+        "tags": ["Spanish fluent"]
+      }
+    ]
+  },
+  {
+    "title": "Projects and Experience",
+    "experience": [
+      {
+        "title": "Engineering Blog Post",
+        "subtitle": "Git Commit History",
+        "description": ["Explains how organizing code revisions retro-actively can highlight important changes and allow for better communication with other engineers"],
+        "dates": "2019",
+        "link": "https://simplybusiness.co.uk/about-us/tech/2019/04/git-magic/",
+        "tags": ["Git"]
+      },
+      {
+        "title": "Open Source Contribution",
+        "subtitle": "Github's Scientist Library",
+        "description": ["Fixes a concurrency bug where an asynchronous method blocked on the result of a potentially very slow calculation. This significantly improved execution time."],
+        "dates": "2018",
+        "link": "https://github.com/rawls238/Scientist4J/commit/867468d837febec694312b473ae2f18473c2527a",
+        "tags": ["Java", "Community volunteer"]
+      },
+      {
+        "title": "Senior Capstone Project",
+        "subtitle": "DS Solidworks App",
+        "description": ["Built 'Capture It', an education app built on Node.js for multiple mobile platforms"],
+        "dates": "2015-2016",
+        "link": "https://www.swappsforkids.com/",
+        "tags": ["Node.js", "Javascript", "Agile Methods"]
+      },
+      {
+        "title": "Computer Vision in Python",
+        "description": ["Used tools including ROS and SKLearn to control a robotic vacuum cleaner's movement via face orientation", 
+          "Implemented various image edge detection algorithms in python"],
+        "dates": "2015",
+        "link": "https://github.com/rifkinni",
+        "tags": ["Python"]
+      }
+    ]
+  },
+  {
+  	"title": "Volunteering",
+  	"experience": [
+  		{
+  			"title": "FIRST Robotics",
+        "subtitle": "Team Mentor",
+  			"description": ["Helped Somerville High School students write machine vision code in Java for their 2019 competition robot"],
+  			"dates": "Winter 2019",
+        "link": "https://thehighlanders6201.weebly.com/",
+				"tags": ["Java","Community volunteer"]
+  		},
+  		{
+  			"title": "Girls Who Code",
+        "subtitle": "Volunteer Facilitator",
+  			"description": ["Ran an after school program for middle school girls in Jamaica Plain learning about code and technology"],
+  			"dates": "Spring 2017",
+        "link": "https://girlswhocode.com/",
+				"tags": ["Community volunteer"]
+  		},
+  		{
+  			"title": "Black Cat Rescue",
+        "subtitle": "Foster Mom",
+  			"description": ["Fostered 3 very silly kitties. <a href='/cats'>Link to cat pics.</a>"],
+  			"dates": "Winter 2018",
+        "link": "http://blackcatrescue.com/",
+				"tags": ["Community volunteer"]
+  		}
+  	]
+  }
+]

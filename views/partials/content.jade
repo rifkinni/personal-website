@@ -1,0 +1,19 @@
+script(src="javascript/content.js")
+
+block content
+  div(class="resume")
+    each category in resumeCategories
+      div(class="js-content-section")
+        h2(class="content-section-title")= category.title
+        each experience in category.experience
+          div(class="content-entry")
+            div(class="js-skill-tags hidden")=experience.tags
+            span
+              h3(style="display:inherit;")
+                a(class="selectable" href= experience.link target="_blank")= experience.title
+                if experience.subtitle
+                  span &nbsp - &nbsp
+                  span= experience.subtitle
+              h4(class="dates")= experience.dates
+            each description in experience.description
+              p!= description

@@ -1,0 +1,11 @@
+script(src="javascript/sidebar.js")
+
+block content
+  div(class="sidebar") 
+    each category in skillCategories
+      div(class="skill-section margin--medium")
+        span
+          span(class="arrow")
+          h3(class="js-skill-section clickable")= category.title
+          each skill in category.skills
+            h4(class="js-skill clickable selectable hidden")= skill.name

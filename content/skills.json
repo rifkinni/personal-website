@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Computer languages",
+    "skills": [
+      {
+        "name":"Java",
+        "level": 3
+      },
+      {
+        "name":"Ruby",
+        "level": 3
+      },
+      {
+        "name":"Python",
+        "level": 3
+      },
+      {
+        "name":"SQL",
+        "level": 3
+      },
+      {
+        "name":"Javascript",
+        "level": 2
+      },
+      {
+        "name":"HTML/CSS",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "title": "Tools and Frameworks",
+    "skills": [
+      {"name":"AWS"},
+      {"name":"Docker"},
+      {"name":"Kubernetes"},
+      {"name":"Jenkins"},
+      {"name":"Git"},
+      {"name":"Rails"},
+      {"name":"Spring"},
+      {"name":"Node.js"},
+      {"name":"MongoDB"}
+    ]
+  },
+  {
+    "title": "Design Principles",
+    "skills": [
+      {"name":"Microservices"},
+      {"name":"Serverless"},
+      {"name":"RESTful APIs"},
+      {"name":"Test Driven Development"}
+    ]
+  },
+  {
+    "title": "Human Skills",
+    "skills": [
+      {"name":"Agile Methods"},
+      {"name":"Spanish fluent"},
+      {"name":"Community volunteer"}
+    ]
+  }
+]
