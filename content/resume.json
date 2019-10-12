@@ -90,7 +90,7 @@
         "description": ["Built 'Capture It', an education app built on Node.js for multiple mobile platforms."],
         "dates": "2015-2016",
         "link": "https://www.swappsforkids.com/",
-        "tags": ["Node.js", "Javascript", "Agile Methods"]
+        "tags": ["Node.js", "Javascript", "HTML/CSS", "Agile Methods"]
       },
       {
         "title": "Computer Vision in Python",
@@ -99,6 +99,13 @@
         "dates": "2015",
         "link": "https://github.com/rifkinni",
         "tags": ["Python"]
+      },
+      {
+        "title": "Personal website",
+        "description": ["You're looking at the final product!"],
+        "dates": "2019",
+        "link": "https://github.com/rifkinni/personal-website",
+        "tags": ["Javascript", "HTML/CSS"]
       }
     ]
   },
