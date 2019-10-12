@@ -57,9 +57,9 @@ function shouldHideSection(section) {
 function getSkills() {
   var skills = document.getElementsByClassName('js-skill');
   return [...skills].filter(skill => {
-    return skill.classList.contains("selected");
+    return skill.checked;
   }).map(skill => {
-    return skill.innerHTML
+    return skill.id
   });
 }
 

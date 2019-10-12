@@ -22,6 +22,14 @@ div[role="banner"] {
   height: 110px;
 }
 
+label {
+  padding-left: 5px;
+}
+
+:checked + label {
+  color: #E14658;
+}
+
 .margin--small {
   margin: 10px;
 }
@@ -120,6 +128,11 @@ p {
   margin-bottom: 3px;
   transform: rotate(45deg) !important;
   -webkit-transform: rotate(45deg) !important;
+}
+
+.filter-helper {
+  text-align: center;
+  color: #E14658;
 }
 
 @media (min-width: 600px) {

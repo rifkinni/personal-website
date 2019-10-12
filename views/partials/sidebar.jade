@@ -2,10 +2,13 @@ script(src="javascript/sidebar.js")
 
 block content
   div(class="sidebar") 
+    h4(class="filter-helper") Filter by Experience
     each category in skillCategories
       div(class="skill-section margin--medium")
         span
           span(class="arrow")
           h3(class="js-skill-section clickable")= category.title
           each skill in category.skills
-            h4(class="js-skill clickable selectable hidden")= skill.name
+            h4(class="hidden")
+              input(type="checkbox" class="js-skill clickable" id=skill.name)
+              label(for=skill.name class="clickable")= skill.name
