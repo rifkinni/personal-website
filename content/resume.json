@@ -39,7 +39,7 @@
       {
         "title": "Dupont Pioneer",
         "subtitle": "Data Science Intern",
-        "description": ["Built image processing machine learning models using Python as part of a research project to analyze the health of corn fields."],
+        "description": ["Built image processing machine learning models using Python as part of research analyzing the health of corn fields."],
         "dates": "May 2014 - Jul. 2014",
         "link": "https://www.pioneer.com/landing",
         "tags": ["Python"]
@@ -58,7 +58,7 @@
       },
       {
         "title": "Pontificia Universidad Católica de Valparaíso",
-        "description": ["Concentration in Spanish language and culture"],
+        "description": ["Study abroad semester, concentration in Spanish language and culture"],
         "dates": "Fall 2014",
         "link":"http://www.pucv.cl/",
         "tags": ["Spanish fluent"]
@@ -95,7 +95,7 @@
       {
         "title": "Computer Vision in Python",
         "description": ["Used tools including ROS and SKLearn to control a robotic vacuum cleaner's movement via face orientation.", 
-          "Implemented various image edge detection algorithms in python."],
+          "Implemented various image edge detection algorithms in Python."],
         "dates": "2015",
         "link": "https://github.com/rifkinni",
         "tags": ["Python"]
@@ -131,7 +131,7 @@
   		{
   			"title": "Black Cat Rescue",
         "subtitle": "Foster Mom",
-  			"description": ["Fostered 3 very silly kitties. <a href='/cats'>Link to cat pics.</a>"],
+  			"description": ["Fostered 3 very silly kitties. <a href='/cats'>Pics</a>."],
   			"dates": "Winter 2018",
         "link": "http://blackcatrescue.com/",
 				"tags": ["Community volunteer"]
