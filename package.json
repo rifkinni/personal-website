@@ -2,6 +2,11 @@
   "name": "personal-website",
   "version": "0.0.0",
   "description": "Nicole Rifkin's online resume",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rifkinni/personal-website.git"
+  },
   "scripts": {
     "start": "npm install; node ./bin/www"
   },
