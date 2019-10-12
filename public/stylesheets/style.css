@@ -122,6 +122,11 @@ p {
   -webkit-transform: rotate(45deg) !important;
 }
 
+.filter-helper {
+  text-align: center;
+  color: #E14658;
+}
+
 @media (min-width: 600px) {
   .content-section-title, .content-entry {
     margin-left: 20%;
