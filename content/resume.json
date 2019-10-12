@@ -4,13 +4,12 @@
   	"experience": [
   		{
   			"title": "Simply Business",
-  			"subtitle": "Full-stack Software Engineer",
-        "description": ["Automated the deploy process for an AWS CloudSearch database using Jenkins and the AWS Ruby SDK. This replaced a painfully manual engineering process and significantly improved developer experience.",
-          "Built the company's first integration with third party insurers' RESTful APIs. This involved significant internal changes to a legacy monolithic application to support this new capability.",
-          "Practiced Test Driven Development while refactoring and improving test coverage of internal Ruby gems",
-          "Managed large-scale migrations of years worth of data on our production MongoDB instance",
-          "Presented at tech-wide meetings on debugging local Docker environments and on Git best practices",
-          "Attended conferences and trainings including Serverless Days, RailsConf, and Ruby Conference Kiev"
+  			"subtitle": "Senior Full-stack Software Engineer",
+        "description": ["Automated the deploy process for an AWS CloudSearch database using Jenkins and the AWS Ruby SDK. This replaced a painfully manual engineering process and improved both delivery time and developer experience.",
+          "Built the company's first integration with third party insurers' RESTful APIs. This involved large internal changes to a legacy monolithic application architecture to support this new capability.",
+          "Managed large-scale migrations of years worth of data on our production MongoDB instance.",
+          "Practiced Test Driven Development while refactoring and improving test coverage of internal Ruby gems.",
+          "Presented at tech-wide meetings on debugging local Docker environments and on Git best practices, and attended conferences and trainings including Serverless Days, RailsConf, and Ruby Conference Kiev."
         ],
   			"dates": "Oct. 2018 - present",
         "link": "http://www.simplybusiness.com/",
@@ -19,10 +18,10 @@
   		{
   			"title": "Turo",
   			"subtitle": "Senior Back-end Software Engineer",
-        "description": ["Built one of the company's first microservices. This involved Dockerizing and migrating our currency exchange service from our monolithic application and deploying it in Kubernetes. It established several patterns that Microservices currently in development are now following.",
+        "description": ["Built one of the company's first microservices. This involved Dockerizing and migrating our currency exchange service from our monolithic application and deploying it in Kubernetes. It established several patterns that later Microservices followed.",
           "Replaced a third party payment processing service. This high-risk 'payments exorcism' involved refactoring thousands of lines of code and extremely careful testing, as it touched all of the most central parts of the product.",
           "Designed and implemented a Spring-component architecture pattern to handle data downloading to comply with General Data Protection Regulations (GDPR).",
-          "Developed and augmented RESTful APIs and SQL data models that significantly improved overall customer experience."],
+          "Developed and augmented RESTful APIs and SQL data models that improved overall customer experience."],
   			"dates": "Oct. 2016 - Oct. 2018",
         "link": "https://turo.com/",
   			"tags": ["Java","Spring","Hibernate","Kubernetes","Docker","SQL","Agile Methods","RESTful APIs","Microservices"]
@@ -30,7 +29,9 @@
       {
         "title": "Walt Disney Parks and Resorts",
         "subtitle": "Engineering Professional Intern",
-        "description": ["Desktop app development to interface with handheld closed captioning devices in Python","Wearable technology prototyping with Bluetooth and IR communications in C and the Arduino environment","Industrial controls system design and component specification in AutoCAD Electrical for theme park ride safety systems"],
+        "description": ["Augmented a desktop app written in Python to interface with handheld closed captioning devices.",
+          "Prototyped wearable technology using Bluetooth and IR communications in C and the Arduino environment.",
+          "Designed industrial controls systems in AutoCAD Electrical for theme park ride safety systems."],
         "dates": "Jan. 2015 - Aug. 2015",
         "link": "https://jobs.disneycareers.com/professional-internships",
         "tags": ["Python"]
@@ -38,7 +39,7 @@
       {
         "title": "Dupont Pioneer",
         "subtitle": "Data Science Intern",
-        "description": ["Image processing machine learning research using Python to determine the health of corn fields"],
+        "description": ["Built image processing machine learning models using Python as part of a research project to analyze the health of corn fields."],
         "dates": "May 2014 - Jul. 2014",
         "link": "https://www.pioneer.com/landing",
         "tags": ["Python"]
@@ -70,7 +71,7 @@
       {
         "title": "Engineering Blog Post",
         "subtitle": "Git Commit History",
-        "description": ["Explains how organizing code revisions retro-actively can highlight important changes and allow for better communication with other engineers"],
+        "description": ["Explains how organizing code revisions retro-actively can highlight important changes and allow for better communication with other engineers."],
         "dates": "2019",
         "link": "https://simplybusiness.co.uk/about-us/tech/2019/04/git-magic/",
         "tags": ["Git"]
@@ -86,15 +87,15 @@
       {
         "title": "Senior Capstone Project",
         "subtitle": "DS Solidworks App",
-        "description": ["Built 'Capture It', an education app built on Node.js for multiple mobile platforms"],
+        "description": ["Built 'Capture It', an education app built on Node.js for multiple mobile platforms."],
         "dates": "2015-2016",
         "link": "https://www.swappsforkids.com/",
         "tags": ["Node.js", "Javascript", "Agile Methods"]
       },
       {
         "title": "Computer Vision in Python",
-        "description": ["Used tools including ROS and SKLearn to control a robotic vacuum cleaner's movement via face orientation", 
-          "Implemented various image edge detection algorithms in python"],
+        "description": ["Used tools including ROS and SKLearn to control a robotic vacuum cleaner's movement via face orientation.", 
+          "Implemented various image edge detection algorithms in python."],
         "dates": "2015",
         "link": "https://github.com/rifkinni",
         "tags": ["Python"]
