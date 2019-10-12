@@ -9,4 +9,6 @@ block content
           span(class="arrow")
           h3(class="js-skill-section clickable")= category.title
           each skill in category.skills
-            h4(class="js-skill clickable selectable hidden")= skill.name
+            h4(class="hidden")
+              input(type="checkbox" class="js-skill clickable" id=skill.name)
+              label(for=skill.name class="clickable")= skill.name

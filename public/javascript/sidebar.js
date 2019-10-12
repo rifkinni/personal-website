@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", onLoad);
 function onLoad() {
   var sections =  document.getElementsByClassName("js-skill-section");
   loadCollapsibleMenu([...sections]);
-  bindFilters([...sections]);
 }
 
 function loadCollapsibleMenu(sections) {
@@ -15,18 +14,6 @@ function loadCollapsibleMenu(sections) {
       turnArrow(this);
     });
   });
-}
-
-function bindFilters(sections) {
-  sections.forEach(function(section) {
-    getSiblings(section).forEach(function(skill) {
-      skill.addEventListener("click", () => toggleSelected(skill));
-    });
-  });
-}
-
-function toggleSelected(skill) {
-  skill.classList.toggle("selected");
 }
 
 function getSiblings(element) {

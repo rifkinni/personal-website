@@ -22,6 +22,14 @@ div[role="banner"] {
   height: 110px;
 }
 
+label {
+  padding-left: 5px;
+}
+
+:checked + label {
+  color: #E14658;
+}
+
 .margin--small {
   margin: 10px;
 }
