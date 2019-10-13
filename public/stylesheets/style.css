@@ -44,11 +44,6 @@ h1 {
 
 a {
   color: #E14658;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 p {
@@ -87,8 +82,8 @@ p {
   cursor: pointer;
 }
 
-.selectable:hover {
-  text-decoration: underline;
+.selectable:hover, a:hover {
+  opacity: .7;
 }
 
 .selected {
