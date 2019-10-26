@@ -1,15 +1,10 @@
 document.addEventListener("click", filter);
+document.addEventListener("DOMContentLoaded", filter);
 
 function filter() {
   var skills = getSkills();
   var entries = getEntries(document);
   var sections = getSections();
-
-  if (skills == undefined || skills.length === 0) {
-    sections.forEach(section => show(section));
-    entries.forEach(entry => show(entry));
-    return
-  }
 
   filterEntries(entries, skills);
   filterSections(sections);
@@ -45,7 +40,11 @@ function hide(element) {
 }
 
 function shouldHideEntry(skills, tags) {
-  return skills.filter(skill => tags.includes(skill)).length === 0
+  if (skills == undefined || skills.length === 0) {
+    return !tags.includes("Default")
+  } else {
+    return skills.filter(skill => tags.includes(skill)).length === 0
+  }
 }
 
 function shouldHideSection(section) {
