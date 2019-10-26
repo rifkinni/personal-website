@@ -13,20 +13,20 @@ function filter() {
 function filterEntries(entries, skills) {
   entries.forEach(entry => {
     var tags = getTags(entry);
-    if (shouldHideEntry(skills, tags)) {
-      hide(entry);
-    } else {
+    if (shouldShowEntry(skills, tags)) {
       show(entry);
+    } else {
+      hide(entry);
     }
   });
 }
 
 function filterSections(sections) {
   sections.forEach(section => {
-    if (shouldHideSection(section)) {
-      hide(section);
-    } else {
+    if (shouldShowSection(section)) {
       show(section);
+    } else {
+      hide(section);
     }
   })
 }
@@ -39,18 +39,18 @@ function hide(element) {
   element.classList.add("hidden");
 }
 
-function shouldHideEntry(skills, tags) {
+function shouldShowEntry(skills, tags) {
   if (skills == undefined || skills.length === 0) {
-    return !tags.includes("Default")
+    return tags.includes("Default")
   } else {
-    return skills.filter(skill => tags.includes(skill)).length === 0
+    return skills.filter(skill => tags.includes(skill)).length > 0
   }
 }
 
-function shouldHideSection(section) {
+function shouldShowSection(section) {
   return getEntries(section).filter(entry => {
       return !entry.classList.contains("hidden");
-  }).length === 0
+  }).length > 0
 }
 
 function getSkills() {
