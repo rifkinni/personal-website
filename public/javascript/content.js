@@ -1,15 +1,10 @@
 document.addEventListener("click", filter);
+document.addEventListener("DOMContentLoaded", filter);
 
 function filter() {
   var skills = getSkills();
   var entries = getEntries(document);
   var sections = getSections();
-
-  if (skills == undefined || skills.length === 0) {
-    sections.forEach(section => show(section));
-    entries.forEach(entry => show(entry));
-    return
-  }
 
   filterEntries(entries, skills);
   filterSections(sections);
@@ -18,20 +13,20 @@ function filter() {
 function filterEntries(entries, skills) {
   entries.forEach(entry => {
     var tags = getTags(entry);
-    if (shouldHideEntry(skills, tags)) {
-      hide(entry);
-    } else {
+    if (shouldShowEntry(skills, tags)) {
       show(entry);
+    } else {
+      hide(entry);
     }
   });
 }
 
 function filterSections(sections) {
   sections.forEach(section => {
-    if (shouldHideSection(section)) {
-      hide(section);
-    } else {
+    if (shouldShowSection(section)) {
       show(section);
+    } else {
+      hide(section);
     }
   })
 }
@@ -44,14 +39,18 @@ function hide(element) {
   element.classList.add("hidden");
 }
 
-function shouldHideEntry(skills, tags) {
-  return skills.filter(skill => tags.includes(skill)).length === 0
+function shouldShowEntry(skills, tags) {
+  if (skills == undefined || skills.length === 0) {
+    return tags.includes("Default")
+  } else {
+    return skills.filter(skill => tags.includes(skill)).length > 0
+  }
 }
 
-function shouldHideSection(section) {
+function shouldShowSection(section) {
   return getEntries(section).filter(entry => {
       return !entry.classList.contains("hidden");
-  }).length === 0
+  }).length > 0
 }
 
 function getSkills() {

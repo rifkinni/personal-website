@@ -13,7 +13,7 @@
         ],
   			"dates": "Oct. 2018 - present",
         "link": "http://www.simplybusiness.com/",
-  			"tags": ["AWS","Ruby","Rails","MongoDB","Serverless","Agile Methods","Docker","Test Driven Development","RESTful APIs","Jenkins"]
+				"tags": ["AWS","Ruby","Rails","MongoDB","Serverless","Agile Methods","Docker","Test Driven Development","RESTful APIs","Jenkins","Default"]
   		},
   		{
   			"title": "Turo",
@@ -24,7 +24,7 @@
           "Developed and augmented RESTful APIs and SQL data models that improved overall customer experience."],
   			"dates": "Oct. 2016 - Oct. 2018",
         "link": "https://turo.com/",
-  			"tags": ["Java","Spring","Hibernate","Kubernetes","Docker","SQL","Agile Methods","RESTful APIs","Microservices"]
+				"tags": ["Java","Spring","Hibernate","Kubernetes","Docker","SQL","Agile Methods","RESTful APIs","Microservices","Default"]
   		},
       {
         "title": "Walt Disney Parks and Resorts",
@@ -34,7 +34,7 @@
           "Designed industrial controls systems in AutoCAD Electrical for theme park ride safety systems."],
         "dates": "Jan. 2015 - Aug. 2015",
         "link": "https://jobs.disneycareers.com/professional-internships",
-        "tags": ["Python"]
+        "tags": ["Python","Default"]
       },
       {
         "title": "Dupont Pioneer",
@@ -54,7 +54,7 @@
         "description": ["BS Electrical and Computer Engineering"],
         "dates": "Class of 2016",
         "link":"https://www.olin.edu",
-        "tags": ["Python","Javascript","SQL"]
+        "tags": ["Python","Javascript","SQL","Default"]
       },
       {
         "title": "Pontificia Universidad Católica de Valparaíso",
@@ -74,7 +74,7 @@
         "description": ["Explains how organizing code revisions retro-actively can highlight important changes and allow for better communication with other engineers."],
         "dates": "2019",
         "link": "https://simplybusiness.co.uk/about-us/tech/2019/04/git-magic/",
-        "tags": ["Git"]
+        "tags": ["Git","Default"]
       },
       {
         "title": "Open Source Contribution",
@@ -82,7 +82,14 @@
         "description": ["Fixes a concurrency bug where an asynchronous method blocked on the result of a potentially very slow calculation. This significantly improved execution time."],
         "dates": "2018",
         "link": "https://github.com/rawls238/Scientist4J/commit/867468d837febec694312b473ae2f18473c2527a",
-        "tags": ["Java", "Community volunteer"]
+        "tags": ["Java", "Community volunteer","Default"]
+      },
+      {
+        "title": "Personal website",
+        "description": ["You're looking at the final product!"],
+        "dates": "2019",
+        "link": "https://github.com/rifkinni/personal-website",
+        "tags": ["Javascript", "HTML/CSS","Default"]
       },
       {
         "title": "Senior Capstone Project",
@@ -99,13 +106,6 @@
         "dates": "2015",
         "link": "https://github.com/rifkinni",
         "tags": ["Python"]
-      },
-      {
-        "title": "Personal website",
-        "description": ["You're looking at the final product!"],
-        "dates": "2019",
-        "link": "https://github.com/rifkinni/personal-website",
-        "tags": ["Javascript", "HTML/CSS"]
       }
     ]
   },
@@ -118,7 +118,7 @@
   			"description": ["Helped Somerville High School students write machine vision code in Java for their 2019 competition robot"],
   			"dates": "Winter 2019",
         "link": "https://thehighlanders6201.weebly.com/",
-				"tags": ["Java","Community volunteer"]
+				"tags": ["Java","Community volunteer","Default"]
   		},
   		{
   			"title": "Girls Who Code",
@@ -126,7 +126,7 @@
   			"description": ["Ran an after school program for middle school girls in Jamaica Plain learning about code and technology"],
   			"dates": "Spring 2017",
         "link": "https://girlswhocode.com/",
-				"tags": ["Community volunteer"]
+				"tags": ["Community volunteer","Default"]
   		},
   		{
   			"title": "Black Cat Rescue",
@@ -134,7 +134,7 @@
   			"description": ["Fostered 3 very silly kitties. <a href='/cats'>Pics</a>."],
   			"dates": "Winter 2018",
         "link": "http://blackcatrescue.com/",
-				"tags": ["Community volunteer"]
+				"tags": ["Community volunteer","Default"]
   		}
   	]
   }
