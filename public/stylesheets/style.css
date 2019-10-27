@@ -50,7 +50,7 @@ p {
   font-size: 1.12em;
 }
 
-.sidebar {
+#sidebar {
   display: none;
   color: #22252C;
   background-color: #C0B3A0;
@@ -66,7 +66,7 @@ p {
   scrollbar-width: none;  /* Firefox */
 }
 
-.sidebar::-webkit-scrollbar {
+#sidebar::-webkit-scrollbar {
   display: none;  /* Safari and Chrome*/
 }
 
@@ -125,7 +125,7 @@ p {
   -webkit-transform: rotate(45deg) !important;
 }
 
-.filter-helper {
+#help-text {
   color: #E14658;
 }
 
@@ -134,7 +134,7 @@ p {
     margin-left: 20%;
   }
 
-  .sidebar {
+  #sidebar {
     display: block;
   }
 }

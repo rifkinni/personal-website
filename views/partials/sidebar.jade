@@ -1,8 +1,8 @@
 script(src="javascript/sidebar.js")
 
 block content
-  div(class="sidebar") 
-    h4(class="filter-helper margin--medium") Filter by Experience
+  div(id="sidebar")
+    h4(class="margin--medium" id="help-text")
     each category in skillCategories
       div(class="skill-section margin--medium")
         span
@@ -10,5 +10,5 @@ block content
           h3(class="js-skill-section clickable")= category.title
           each skill in category.skills
             h4(class="hidden")
-              input(type="checkbox" class="js-skill clickable" id=skill.name)
+              input(type="radio" class="js-skill clickable" id=skill.name name="skill")
               label(for=skill.name class="clickable selectable")= skill.name
