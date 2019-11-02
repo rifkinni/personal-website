@@ -1,17 +1,30 @@
-document.addEventListener("click", filter);
+document.getElementById('sidebar').addEventListener("click", filter);
+document.getElementById('help-text').addEventListener("click", clearFilters);
 document.addEventListener("DOMContentLoaded", filter);
 
 function filter() {
-  var skills = getSkills();
-  var entries = getEntries(document);
-  var sections = getSections();
-
-  filterEntries(entries, skills);
-  filterSections(sections);
+  filterEntries();
+  filterSections();
+  updateHelpText();
 }
 
-function filterEntries(entries, skills) {
-  entries.forEach(entry => {
+function updateHelpText() {
+  var skills = filterSkills();
+  var helper = document.getElementById('help-text')
+
+  if (skills == undefined || skills.length === 0) {
+    helper.innerHTML = "Filter by experience"
+    helper.classList.remove("clickable");
+  } else {
+    helper.innerHTML = "Clear filter"
+    helper.classList.add("clickable");
+  }
+}
+
+function filterEntries() {
+  var skills = filterSkills();
+
+  getEntries(document).forEach(entry => {
     var tags = getTags(entry);
     if (shouldShowEntry(skills, tags)) {
       show(entry);
@@ -21,14 +34,19 @@ function filterEntries(entries, skills) {
   });
 }
 
-function filterSections(sections) {
-  sections.forEach(section => {
+function filterSections() {
+  getSections().forEach(section => {
     if (shouldShowSection(section)) {
       show(section);
     } else {
       hide(section);
     }
   })
+}
+
+function clearFilters() {
+  getSkills().forEach(skill => { skill.checked = false });
+  filter();
 }
 
 function show(element) {
@@ -53,13 +71,16 @@ function shouldShowSection(section) {
   }).length > 0
 }
 
-function getSkills() {
-  var skills = document.getElementsByClassName('js-skill');
-  return [...skills].filter(skill => {
+function filterSkills(allSkills) {
+  return getSkills().filter(skill => {
     return skill.checked;
   }).map(skill => {
     return skill.id
   });
+}
+
+function getSkills() {
+  return [...document.getElementsByClassName('js-skill')];
 }
 
 function getEntries(parent) {
