@@ -146,7 +146,7 @@ p {
 }
 
 @media (min-width: 600px) {
-  .content-section-title, .content-entry {
+  .content-entry {
     margin-left: 20%;
   }
 
