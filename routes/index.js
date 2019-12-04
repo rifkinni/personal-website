@@ -5,7 +5,7 @@ var fs = require('fs');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   params = {
-    name: 'Nicole Rifkin',
+    bio: bio(),
     skillCategories: skillCategories(),
     resumeCategories: resumeCategories()
   }
@@ -24,4 +24,8 @@ function skillCategories() {
 
 function resumeCategories() {
   return JSON.parse(fs.readFileSync('content/resume.json', 'utf8'));
+}
+
+function bio() {
+  return JSON.parse(fs.readFileSync('content/bio.json', 'utf8'));
 }
