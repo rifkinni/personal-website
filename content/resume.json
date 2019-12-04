@@ -8,8 +8,7 @@
         "descriptions": ["Automated the deploy process for an AWS CloudSearch database using Jenkins and the AWS Ruby SDK. This replaced a painfully manual engineering process and improved both delivery time and developer experience.",
           "Built the company's first integration with third party insurers' RESTful APIs. This involved large internal changes to a legacy monolithic application architecture to support this new capability.",
           "Managed large-scale migrations of years worth of data on our production MongoDB instance.",
-          "Practiced Test Driven Development while refactoring and improving test coverage of internal Ruby gems.",
-          "Presented at tech-wide meetings on debugging local Docker environments and on Git best practices, and attended conferences and trainings including Serverless Days, RailsConf, and Ruby Conference Kiev."
+          "Presented at tech-wide meetings on debugging local Docker environments, Git best practices, and application security with RailsGoat."
         ],
         "dates": "Oct. 2018 - present",
         "link": "http://www.simplybusiness.com/",
@@ -50,10 +49,10 @@
       {
         "title": "Simply Business",
         "subtitle": "Senior Full-stack Software Engineer",
-        "descriptions": ["Presented at tech-wide meetings on debugging local Docker environments and on Git best practices."],
+        "descriptions": ["Presented at tech-wide meetings on debugging local Docker environments, Git best practices, and application security with RailsGoat."],
         "dates": "Oct. 2018 - present",
         "link": "http://www.simplybusiness.com/",
-        "tags": ["Docker"]
+        "tags": ["Docker","Git"]
       },      
       {
         "title": "Simply Business",
