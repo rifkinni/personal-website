@@ -2,18 +2,6 @@ document.getElementById("sidebar").addEventListener("click", filter);
 document.getElementById("help-text").addEventListener("click", clearFilters);
 document.addEventListener("DOMContentLoaded", filter);
 
-document.getElementById("header").addEventListener("mouseenter", () => {
-  show(document.getElementById("hover-dropdown"));
-  document.getElementById("sidebar").classList.add("faded");
-  document.getElementById("resume").classList.add("faded");
-});
-
-document.getElementById("header").addEventListener("mouseleave", () => {
-  hide(document.getElementById("hover-dropdown"));
-  document.getElementById("sidebar").classList.remove("faded");
-  document.getElementById("resume").classList.remove("faded");
-});
-
 function filter() {
   filterEntries();
   filterSections();

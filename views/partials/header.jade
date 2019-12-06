@@ -1,4 +1,16 @@
+script(src="javascript/header.js")
+
 block content
   div(role="banner" id="header")
     h1(class="margin--small")= bio.name
     h2(class="margin--small")= bio.title
+    div(class="arrow arrow--down arrow--large clickable" id="bio-dropdown-arrow")
+    div(class='hidden' id='bio-dropdown')
+      div(class='bio')
+        div(style='display: inline-block;')
+          img(src='/images/profile_picture.png' class='profile-picture')
+          h2(class='summary margin--medium')= bio.summary
+            a(class="fa fa-linkedin-square contact" href="https://www.linkedin.com/in/nicole-rifkin/" target="_blank")
+            a(class="fa fa-github-square contact" href="https://www.github.com/rifkinni" target="_blank")
+            a(class="fa fa-envelope-square contact" href="mailto:rifkinni@outlook.com" target="_blank")
+          div(class='arrow arrow--up arrow--large margin--medium clickable' id="bio-up-arrow")
