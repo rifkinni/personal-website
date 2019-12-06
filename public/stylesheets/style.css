@@ -6,7 +6,7 @@ brown: #COB3A0
 */
 
 :root {
-  --header-height: 145px;
+  --header-height: 140px;
 }
 
 body {
@@ -148,7 +148,7 @@ p {
 }
 
 .arrow--large {
-  padding: 10px;
+  padding: 7px;
 }
 
 #help-text {
