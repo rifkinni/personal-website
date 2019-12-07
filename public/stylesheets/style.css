@@ -195,3 +195,7 @@ p {
   margin-top: 5px;
   text-decoration: none;
 }
+
+.text {
+  max-width: 1000px;
+}
