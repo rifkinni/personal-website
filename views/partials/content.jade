@@ -8,8 +8,8 @@ block content
         each experience in category.experience
           div(class="content-entry text")
             div(class="js-skill-tags hidden")=experience.tags
-            span
-              h3(style="display:inherit;")
+            div
+              h3(style="display:inline;")
                 a(class="selectable" href= experience.link target="_blank")= experience.title
                 if experience.subtitle
                   span &nbsp - &nbsp
