@@ -198,6 +198,10 @@ p {
   max-width: 1000px;
 }
 
+.description {
+  text-align: justify;
+}
+
 hr {
   border: 1.5px solid #22252C;
   margin-top: 48px;
