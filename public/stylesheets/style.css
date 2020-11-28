@@ -10,6 +10,7 @@ brown: #COB3A0
 }
 
 body {
+  font-family: Ariel, sans-serif;
   padding-top: var(--header-height);
   background-color: #3F3250;
   color: #C0B3A0;
@@ -19,12 +20,19 @@ body {
 div[role="banner"] {
   text-align: center;
   background-color: #22252C;
-  top: 0;
+  width: 100%;
   left: 0;
   position: fixed;
-  width: 100%;
-  height: var(--header-height);
   z-index: 1;
+}
+
+#header {
+  top: 0;
+  height: var(--header-height);
+}
+
+#footer {
+  bottom: 0;
 }
 
 .bio {
