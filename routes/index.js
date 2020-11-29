@@ -13,14 +13,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/cats', function(req, res, next) {
-  res.render('cats');
+  res.render('cats', { bio: bio() });
 });
 
 router.get('/about', function(req, res, next) {
-  params = {
-    bio: bio()
-  }
-  res.render('about', params);
+  res.render('about', { bio: bio() });
 });
 
 module.exports = router;
