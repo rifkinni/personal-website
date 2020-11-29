@@ -16,6 +16,13 @@ router.get('/cats', function(req, res, next) {
   res.render('cats');
 });
 
+router.get('/about', function(req, res, next) {
+  params = {
+    bio: bio()
+  }
+  res.render('about', params);
+});
+
 module.exports = router;
 
 function skillCategories() {
