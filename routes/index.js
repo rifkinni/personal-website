@@ -20,6 +20,10 @@ router.get('/about', function(req, res, next) {
   res.render('about', { bio: bio() });
 });
 
+router.get('/blog', function(req, res, next) {
+  res.render('blog', { bio: bio(), blog: blog() });
+});
+
 module.exports = router;
 
 function skillCategories() {
@@ -32,4 +36,8 @@ function resumeCategories() {
 
 function bio() {
   return JSON.parse(fs.readFileSync('content/bio.json', 'utf8'));
+}
+
+function blog() {
+  return JSON.parse(fs.readFileSync('content/blog.json', 'utf8'));
 }

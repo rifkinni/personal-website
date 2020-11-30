@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  each post in blog
+    div(class="blog-post clickable" onclick="window.open('#{post.link}');")
+        img(src=post.image class="blog-image")
+        div
+          h3(class="margin--medium pink")= post.title
+          p(class="description margin--medium")!= post.description
+      hr

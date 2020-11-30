@@ -99,6 +99,10 @@ a {
   color: #E14658;
 }
 
+.pink {
+  color: #E14658;
+}
+
 p {
   font-size: 1.12em;
 }
@@ -238,7 +242,20 @@ hr {
   margin-top: 48px;
 }
 
-img {
+.cat-pic {
   display: block;
   margin: 50px auto;
+  width: 70%;
+}
+
+.blog-image {
+  width: 25%;
+  display: inline;
+}
+
+.blog-post {
+  width: 75%;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
 }
