@@ -4,6 +4,14 @@ var fs = require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  res.render('about', { bio: bio() });
+});
+
+router.get('/about', function(req, res, next) {
+  res.render('about', { bio: bio() });
+});
+
+router.get('/resume', function(req, res, next) {
   params = {
     bio: bio(),
     skillCategories: skillCategories(),
@@ -13,7 +21,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/cats', function(req, res, next) {
-  res.render('cats');
+  res.render('cats', { bio: bio() });
+});
+
+router.get('/blog', function(req, res, next) {
+  res.render('blog', { bio: bio(), blog: blog() });
 });
 
 module.exports = router;
@@ -28,4 +40,8 @@ function resumeCategories() {
 
 function bio() {
   return JSON.parse(fs.readFileSync('content/bio.json', 'utf8'));
+}
+
+function blog() {
+  return JSON.parse(fs.readFileSync('content/blog.json', 'utf8'));
 }

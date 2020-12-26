@@ -6,11 +6,14 @@ brown: #COB3A0
 */
 
 :root {
-  --header-height: 140px;
+  --header-height: 100px;
+  --footer-height: 50px;
 }
 
 body {
+  font-family: Ariel, sans-serif;
   padding-top: var(--header-height);
+  padding-bottom: var(--footer-height);
   background-color: #3F3250;
   color: #C0B3A0;
   font-size: 1.1em;
@@ -19,23 +22,57 @@ body {
 div[role="banner"] {
   text-align: center;
   background-color: #22252C;
-  top: 0;
+  width: 100%;
   left: 0;
   position: fixed;
-  width: 100%;
-  height: var(--header-height);
   z-index: 1;
+}
+
+#header {
+  top: 0;
+  height: var(--header-height);
+}
+
+#footer {
+  bottom: 0;
+  height: var(--footer-height);
 }
 
 .bio {
   margin: 10px auto;
+  display: inline-block;
 }
 
-#bio-dropdown {
+.dropdown {
+  position: absolute;
+  right: 25px;
+  top: 0px;
+}
+
+#menu-icon {
+  font-size: 2em;
+  margin-top: calc(var(--header-height)/3);
+  margin-right: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
   background-color: #22252C;
-  top: var(--header-height);
-  width: 100%;
+  right: 0px;
+  padding: 10px;
+}
+
+.dropdown-content a {
+  padding: 2px 10px;
+  text-decoration: none;
+  display: block;
   z-index: 1;
+  color: #C0B3A0;
 }
 
 label {
@@ -62,6 +99,10 @@ a {
   color: #E14658;
 }
 
+.pink {
+  color: #E14658;
+}
+
 p {
   font-size: 1.12em;
 }
@@ -72,7 +113,7 @@ p {
   background-color: #C0B3A0;
   position: fixed;
   top: var(--header-height);
-  bottom: 0px;
+  bottom: var(--footer-height);
   left: 0px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -120,9 +161,8 @@ p {
 }
 
 .dates {
-  display: inline;
   float: right;
-  margin: 0px;
+  margin: 3px 0 0 0;
 }
 
 .arrow {
@@ -164,26 +204,20 @@ p {
     display: block;
   }
 
-  #bio-dropdown {
-    position: fixed;
-    left: 0px;
-  }
-
   .bio {
-    max-width: 75%;
+    max-width: 80%;
+    display: block;
   }
 }
 
 .profile-picture {
-  border-radius: 50%;
+  border-radius: 30%;
   width: 100px;
-  float: left;
   margin: 10px 25px;
 }
 
 .summary {
   text-align: justify;
-  margin-top: 0;
 }
 
 .faded {
@@ -191,11 +225,37 @@ p {
 }
 
 .contact {
-  margin-left: 10px;
-  margin-top: 5px;
+  margin: 5px;
   text-decoration: none;
 }
 
 .text {
   max-width: 1000px;
+}
+
+.description {
+  text-align: justify;
+}
+
+hr {
+  border: 1.5px solid #22252C;
+  margin-top: 48px;
+}
+
+.cat-pic {
+  display: block;
+  margin: 50px auto;
+  width: 70%;
+}
+
+.blog-image {
+  width: 25%;
+  display: inline;
+}
+
+.blog-post {
+  width: 75%;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
 }

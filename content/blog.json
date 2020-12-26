@@ -1,0 +1,20 @@
+[
+  {
+    "title":"Improving monitoring and observability of Docker build times",
+    "description":"Strategies for using the OpenTracing specification and Jaeger visualisation for improved monitoring and observability of Docker build times",
+    "image":"https://www.simplybusiness.co.uk/images/open-graph/observability-docker.jpg",
+    "link":"https://www.simplybusiness.co.uk/about-us/tech/2020/09/docker-build-observability/"
+  },
+  {
+    "title":"A how-to guide for a clean, organized, beautiful commit history",
+    "description":"Organized git commits can make reviewing code delightful and serve as useful historical documentation. Here are some tips for cleaning up messy commits.",
+    "image":"https://www.simplybusiness.co.uk/images/open-graph/git-magic.jpg",
+    "link":"https://www.simplybusiness.co.uk/about-us/tech/2019/04/git-magic/"
+  },
+  {
+    "title": "Debunking assumptions about imposter syndrome",
+    "description": "Individual experience with imposter syndrome is deeply personal. Asking for feedback on performance at work does not always stem from confidence issues.",
+    "image": "https://www.simplybusiness.co.uk/images/open-graph/debunking-imposter-syndrome.jpg",
+    "link": "https://www.simplybusiness.co.uk/about-us/tech/2020/12/imposter-syndrome/"
+  }
+]
