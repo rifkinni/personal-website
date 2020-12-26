@@ -4,6 +4,14 @@ var fs = require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  res.render('about', { bio: bio() });
+});
+
+router.get('/about', function(req, res, next) {
+  res.render('about', { bio: bio() });
+});
+
+router.get('/resume', function(req, res, next) {
   params = {
     bio: bio(),
     skillCategories: skillCategories(),
@@ -14,10 +22,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/cats', function(req, res, next) {
   res.render('cats', { bio: bio() });
-});
-
-router.get('/about', function(req, res, next) {
-  res.render('about', { bio: bio() });
 });
 
 router.get('/blog', function(req, res, next) {
