@@ -4,42 +4,69 @@
     "skills": [
       {
         "name":"Java",
-        "level": "&#9733; &#9733; &#9733;"
+        "level": 3
       },
       {
         "name":"Ruby",
-        "level": "&#9733; &#9733; &#9733;"
+        "level": 3
       },
       {
         "name":"Python",
-        "level": "&#9733; &#9733; &#9733;"
+        "level": 3
       },
       {
         "name":"SQL",
-        "level": "&#9733; &#9733; &#9733;"
+        "level": 3
       },
       {
         "name":"Javascript",
-        "level": "&#9733; &#9733; &#9734;"
+        "level": 2
       },
       {
         "name":"HTML/CSS",
-        "level": "&#9733; &#9733; &#9734;"
+        "level": 2
       }
     ]
   },
   {
     "title": "Tools and Frameworks",
     "skills": [
-      {"name":"AWS"},
-      {"name":"Docker"},
-      {"name":"Kubernetes"},
-      {"name":"Jenkins"},
-      {"name":"Git"},
-      {"name":"Rails"},
-      {"name":"Spring"},
-      {"name":"Node.js"},
-      {"name":"MongoDB"}
+      {
+        "name":"AWS",
+        "level": 2
+      },
+      {
+        "name":"Docker",
+        "level": 3
+      },
+      {
+        "name":"Kubernetes",
+        "level": 2
+      },
+      {
+        "name":"Jenkins",
+        "level": 2
+      },
+      {
+        "name":"Git",
+        "level": 3
+      },
+      {
+        "name":"Rails",
+        "level": 2
+      },
+      {
+        "name":"Spring",
+        "level": 2
+      },
+      {
+        "name":"Node.js",
+        "level": 1
+      },
+      {
+        "name":"MongoDB",
+        "level": 2
+      }
     ]
   },
   {

@@ -31,7 +31,14 @@ router.get('/blog', function(req, res, next) {
 module.exports = router;
 
 function skillCategories() {
-	return JSON.parse(fs.readFileSync('content/skills.json', 'utf8'));
+	var categories = JSON.parse(fs.readFileSync('content/skills.json', 'utf8'));
+  categories.forEach(category => {
+    category.skills.forEach( skill => {
+      stars = "&#9733; ".repeat(skill.level).concat("&#9734;".repeat(3 - skill.level))
+      skill.level = stars
+    })
+  })
+  return categories
 }
 
 function resumeCategories() {
