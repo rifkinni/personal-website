@@ -259,3 +259,16 @@ hr {
   margin-top: 25px;
   display: flex;
 }
+
+.skill-level {
+  padding-left: 5px;
+  font-size: 80%;
+}
+
+.container:hover .skill-level {
+  display: inline !important;
+}
+
+.container input:checked ~ .skill-level {
+  display: inline !important;
+}

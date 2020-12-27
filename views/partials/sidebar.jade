@@ -13,3 +13,4 @@ block content
               label(for=skill.name class="clickable selectable container")= skill.name
                 input(type="radio" class="js-skill clickable" id=skill.name name="skill")
                 span(class="checkmark")
+                span(class="hidden skill-level")!=skill.level
