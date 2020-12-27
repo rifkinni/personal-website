@@ -4,27 +4,27 @@
     "skills": [
       {
         "name":"Java",
-        "level": 3
+        "level": "&#9733; &#9733; &#9733;"
       },
       {
         "name":"Ruby",
-        "level": 3
+        "level": "&#9733; &#9733; &#9733;"
       },
       {
         "name":"Python",
-        "level": 3
+        "level": "&#9733; &#9733; &#9733;"
       },
       {
         "name":"SQL",
-        "level": 3
+        "level": "&#9733; &#9733; &#9733;"
       },
       {
         "name":"Javascript",
-        "level": 2
+        "level": "&#9733; &#9733; &#9734;"
       },
       {
         "name":"HTML/CSS",
-        "level": 2
+        "level": "&#9733; &#9733; &#9734;"
       }
     ]
   },
