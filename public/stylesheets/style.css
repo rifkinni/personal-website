@@ -254,10 +254,16 @@ hr {
 }
 
 .blog-post {
-  width: 75%;
+  width: 45%;
   margin: auto;
   margin-top: 25px;
   display: flex;
+}
+
+.blog-body {
+  display: flex;
+  flex-wrap: wrap;
+}
 }
 
 .skill-level {
