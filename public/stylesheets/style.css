@@ -249,14 +249,15 @@ hr {
 }
 
 .blog-image {
-  width: 25%;
+  max-width: 25%;
   display: inline;
+  object-fit: cover;
+  margin: auto;
 }
 
 .blog-post {
   width: 45%;
   margin: auto;
-  margin-top: 25px;
   display: flex;
 }
 
