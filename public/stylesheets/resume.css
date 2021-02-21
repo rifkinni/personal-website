@@ -1,0 +1,102 @@
+label {
+  padding-left: 5px;
+}
+
+:checked + label {
+  color: #E14658;
+}
+
+#sidebar {
+  display: none;
+  color: #22252C;
+  background-color: #C0B3A0;
+  position: fixed;
+  top: var(--header-height);
+  bottom: 0px;
+  left: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 20%;
+
+  -ms-overflow-style: none;  /* IE 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#sidebar::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome*/
+}
+
+.skill-section h3 {
+  display: inline;
+}
+
+#resume {
+  margin: 0 50px;
+}
+
+.content-section-title {
+  text-align: center;
+  color: inherit;
+}
+
+.content-entry {
+  margin: 50px 0px;
+}
+
+.dates {
+  float: right;
+  margin: 3px 0 0 0;
+}
+
+.arrow {
+  border: solid;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-right: 10px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow--down {
+  margin-bottom: 3px;
+  transform: rotate(45deg) !important;
+  -webkit-transform: rotate(45deg) !important;
+}
+
+.arrow--up {
+  margin-bottom: 3px;
+  transform: rotate(-135deg) !important;
+  -webkit-transform: rotate(-135deg) !important;
+}
+
+.arrow--large {
+  padding: 7px;
+}
+
+#help-text {
+  color: #E14658;
+}
+
+.skill-level {
+  padding-left: 5px;
+  font-size: 80%;
+}
+
+.container:hover .skill-level {
+  display: inline !important;
+}
+
+.container input:checked ~ .skill-level {
+  display: inline !important;
+}
+
+@media (min-width: 600px) {
+  .content-entry {
+    margin-left: 20%;
+  }
+
+  #sidebar {
+    display: block;
+  }
+}

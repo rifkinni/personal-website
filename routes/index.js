@@ -17,7 +17,7 @@ router.get('/resume', function(req, res, next) {
     skillCategories: skillCategories(),
     resumeCategories: resumeCategories()
   }
-  res.render('index', params);
+  res.render('resume', params);
 });
 
 router.get('/cats', function(req, res, next) {
