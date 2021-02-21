@@ -45,7 +45,7 @@ div[role="banner"] {
 
 .dropdown {
   position: absolute;
-  right: 25px;
+  left: 50px;
   top: 0px;
 }
 
@@ -63,7 +63,7 @@ div[role="banner"] {
   display: none;
   position: absolute;
   background-color: #22252C;
-  right: 0px;
+  left: 0px;
   padding: 10px;
 }
 
@@ -195,6 +195,9 @@ p {
   color: #E14658;
 }
 
+.title {
+  display: none;
+}
 
 .blog-image {
   max-width: 25%;
@@ -233,6 +236,10 @@ p {
   .blog-post {
     width: 45%;
   }
+
+  .title {
+    display: block;
+  }
 }
 
 .profile-picture {
@@ -252,6 +259,12 @@ p {
 .contact {
   margin: 5px;
   text-decoration: none;
+}
+
+.contact-group {
+  position: absolute;
+  right: 50px;
+  top: 10px;
 }
 
 .text {
