@@ -7,13 +7,11 @@ brown: #COB3A0
 
 :root {
   --header-height: 100px;
-  --footer-height: 50px;
 }
 
 body {
   font-family: Ariel, sans-serif;
   padding-top: var(--header-height);
-  padding-bottom: var(--footer-height);
   background-color: #3F3250;
   color: #C0B3A0;
   font-size: 1.1em;
@@ -31,11 +29,6 @@ div[role="banner"] {
 #header {
   top: 0;
   height: var(--header-height);
-}
-
-#footer {
-  bottom: 0;
-  height: var(--footer-height);
 }
 
 .bio {
@@ -113,7 +106,7 @@ p {
   background-color: #C0B3A0;
   position: fixed;
   top: var(--header-height);
-  bottom: var(--footer-height);
+  bottom: 0px;
   left: 0px;
   overflow-y: auto;
   overflow-x: hidden;
