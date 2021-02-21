@@ -1,10 +1,14 @@
 block header
   div(role="banner" id="header")
-    h1(class="margin--small")= bio.name
-    h2(class="margin--small")= bio.title
     div(class="dropdown")
       div(class="margin--small fa fa-bars clickable selectable" id="menu-icon")
       span(class="dropdown-content")
         a(href="/about") about
         a(href="/blog") blog
         a(href="/resume") resume
+    h1(class="margin--small title")= bio.name
+    h2(class="margin--small title")= bio.title
+    h2(class="contact-group")
+      a(class="fa fa-linkedin-square contact" href="https://www.linkedin.com/in/nicole-rifkin/" target="_blank")
+      a(class="fa fa-github-square contact" href="https://www.github.com/rifkinni" target="_blank")
+      a(class="fa fa-envelope-square contact" href="mailto:rifkinni@outlook.com" target="_blank")

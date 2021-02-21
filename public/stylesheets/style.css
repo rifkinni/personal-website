@@ -7,13 +7,11 @@ brown: #COB3A0
 
 :root {
   --header-height: 100px;
-  --footer-height: 50px;
 }
 
 body {
   font-family: Ariel, sans-serif;
   padding-top: var(--header-height);
-  padding-bottom: var(--footer-height);
   background-color: #3F3250;
   color: #C0B3A0;
   font-size: 1.1em;
@@ -33,11 +31,6 @@ div[role="banner"] {
   height: var(--header-height);
 }
 
-#footer {
-  bottom: 0;
-  height: var(--footer-height);
-}
-
 .bio {
   margin: 10px auto;
   display: inline-block;
@@ -45,7 +38,7 @@ div[role="banner"] {
 
 .dropdown {
   position: absolute;
-  right: 25px;
+  left: 50px;
   top: 0px;
 }
 
@@ -63,7 +56,7 @@ div[role="banner"] {
   display: none;
   position: absolute;
   background-color: #22252C;
-  right: 0px;
+  left: 0px;
   padding: 10px;
 }
 
@@ -113,7 +106,7 @@ p {
   background-color: #C0B3A0;
   position: fixed;
   top: var(--header-height);
-  bottom: var(--footer-height);
+  bottom: 0px;
   left: 0px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -195,6 +188,9 @@ p {
   color: #E14658;
 }
 
+.title {
+  display: none;
+}
 
 .blog-image {
   max-width: 25%;
@@ -233,6 +229,10 @@ p {
   .blog-post {
     width: 45%;
   }
+
+  .title {
+    display: block;
+  }
 }
 
 .profile-picture {
@@ -252,6 +252,12 @@ p {
 .contact {
   margin: 5px;
   text-decoration: none;
+}
+
+.contact-group {
+  position: absolute;
+  right: 50px;
+  top: 10px;
 }
 
 .text {
