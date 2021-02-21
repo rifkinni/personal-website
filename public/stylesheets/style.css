@@ -195,6 +195,25 @@ p {
   color: #E14658;
 }
 
+
+.blog-image {
+  max-width: 25%;
+  display: inline;
+  object-fit: cover;
+  margin: auto;
+}
+
+.blog-post {
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+
+.blog-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (min-width: 600px) {
   .content-entry {
     margin-left: 20%;
@@ -207,6 +226,10 @@ p {
   .bio {
     max-width: 80%;
     display: block;
+  }
+
+  .blog-post {
+    width: 45%;
   }
 }
 
@@ -246,18 +269,6 @@ hr {
   display: block;
   margin: 50px auto;
   width: 70%;
-}
-
-.blog-image {
-  width: 25%;
-  display: inline;
-}
-
-.blog-post {
-  width: 75%;
-  margin: auto;
-  margin-top: 25px;
-  display: flex;
 }
 
 .skill-level {

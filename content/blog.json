@@ -18,9 +18,9 @@
     "link": "https://www.simplybusiness.co.uk/about-us/tech/2020/12/imposter-syndrome/"
   },
   {
-    "title": "Debugging Docker local development environments",
+    "title": "Debugging local Docker development environments",
     "description": "A self-help guide for when your local Docker setup falls over for no good reason.",
     "image": "https://www.simplybusiness.co.uk/images/open-graph/local-docker.jpg",
-    "url": "https://www.simplybusiness.co.uk/about-us/tech/2021/02/local-docker/"
+    "link": "https://www.simplybusiness.co.uk/about-us/tech/2021/02/local-docker/"
   }
 ]
