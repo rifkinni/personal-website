@@ -3,7 +3,7 @@ extends layout
 block content
   div(class="blog-body")
     each post in blog
-      div(class="blog-post clickable" onclick="window.open('#{post.link}');")
+      div(class="blog-post clickable" onclick="window.open('" + post.link + "')")
         img(src=post.image class="blog-image")
         div
           h3(class="margin--medium pink")= post.title
