@@ -123,16 +123,7 @@ p {
 .blog-post {
   width: 95%;
   display: flex;
-  margin: 0px 2.5%;
-  border-bottom: 3px solid #22252C;
-}
-
-.divider {
-  border-left: 3px solid #22252C;
-  position: absolute;
-  left: 50%;
-  top: 0px;
-  height:100%;
+  margin: 10px 2.5%;
 }
 
 .blog-body {
@@ -183,13 +174,17 @@ p {
   text-align: justify;
 }
 
-hr {
-  border: 1.5px solid #22252C;
-  margin-top: 48px;
-}
-
 .cat-pic {
   display: block;
   margin: 50px auto;
   width: 70%;
+}
+
+.content-section-title {
+  text-align: center;
+  color: inherit;
+}
+
+.content-entry {
+  border-bottom: 3px solid #22252C;
 }

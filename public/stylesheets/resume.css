@@ -34,13 +34,9 @@ label {
   margin: 0 50px;
 }
 
-.content-section-title {
-  text-align: center;
-  color: inherit;
-}
-
-.content-entry {
-  margin: 50px 0px;
+#resume .content-entry {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .dates {
@@ -92,7 +88,7 @@ label {
 }
 
 @media (min-width: 600px) {
-  .content-entry {
+  #resume .content-entry {
     margin-left: 20%;
   }
 

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  each category in Object.keys(portfolio)
+    h2(class="content-section-title")= category
+    div(class="blog-body")
+      each entry in portfolio[category]
+        div(class="blog-post clickable content-entry" onclick="window.open('" + entry.link + "')")
+          img(src=entry.image class="blog-image")
+          div
+            h3(class="margin--medium pink")= entry.title
+            p(class="description margin--medium")!= entry.description
