@@ -207,6 +207,8 @@ p {
   width: 95%;
   margin: auto;
   display: flex;
+  margin: 0px 2.5%;
+  border-bottom: 3px solid #22252C;
 }
 
 .blog-body {
