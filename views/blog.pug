@@ -2,6 +2,7 @@ extends layout
 
 block content
   div(class="blog-body")
+    div(class="divider")
     each post in blog
       div(class="blog-post clickable" onclick="window.open('" + post.link + "')")
         img(src=post.image class="blog-image")

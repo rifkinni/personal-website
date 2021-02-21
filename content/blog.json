@@ -1,26 +1,58 @@
 [
   {
+    "type": "Blog post",
     "title":"Improving monitoring and observability of Docker build times",
     "description":"Strategies for using the OpenTracing specification and Jaeger visualisation for improved monitoring and observability of Docker build times",
     "image":"https://www.simplybusiness.co.uk/images/open-graph/observability-docker.jpg",
     "link":"https://www.simplybusiness.co.uk/about-us/tech/2020/09/docker-build-observability/"
   },
   {
+    "type": "Blog post",
     "title":"A how-to guide for a clean, organized, beautiful commit history",
     "description":"Organized git commits can make reviewing code delightful and serve as useful historical documentation. Here are some tips for cleaning up messy commits.",
     "image":"https://www.simplybusiness.co.uk/images/open-graph/git-magic.jpg",
     "link":"https://www.simplybusiness.co.uk/about-us/tech/2019/04/git-magic/"
   },
   {
+    "type": "Blog post",
     "title": "Debunking assumptions about imposter syndrome",
     "description": "Individual experience with imposter syndrome is deeply personal. Asking for feedback on performance at work does not always stem from confidence issues.",
     "image": "https://www.simplybusiness.co.uk/images/open-graph/debunking-imposter-syndrome.jpg",
     "link": "https://www.simplybusiness.co.uk/about-us/tech/2020/12/imposter-syndrome/"
   },
   {
+    "type": "Blog post",
     "title": "Debugging local Docker development environments",
     "description": "A self-help guide for when your local Docker setup falls over for no good reason.",
     "image": "https://www.simplybusiness.co.uk/images/open-graph/local-docker.jpg",
     "link": "https://www.simplybusiness.co.uk/about-us/tech/2021/02/local-docker/"
+  },
+  {
+    "type": "Open source Contribution",
+    "title": "Twiglet Ruby: Like a log, only smaller",
+    "description": "A lightweight JSON log formatter compliant with the Elastic Common Schema",
+    "image": "https://avatars.githubusercontent.com/u/465825",
+    "link": "https://github.com/simplybusiness/twiglet-ruby"
+  },
+  {
+    "type": "Open source Contribution",
+    "title": "Github Scientist for Java",
+    "description": "Fixed a concurrency bug where an asynchronous method blocked on the result of a potentially very slow calculation.",
+    "image": "https://avatars.githubusercontent.com/u/9919",
+    "link": "https://github.com/rawls238/Scientist4J/commit/867468d837febec694312b473ae2f18473c2527a"
+  },
+  {
+    "type": "Open source Contribution",
+    "title": "OWASP Railsgoat",
+    "description": "Fixed several bugs and points of confusion in the test suite.",
+    "image": "https://avatars.githubusercontent.com/u/155815",
+    "link": "https://github.com/OWASP/railsgoat/pull/372"
+  },
+  {
+    "type": "Open source Contribution",
+    "title": "Version Forget-Me-Not",
+    "description": "A Github Action for Ruby projects that checks that the semantic version has been updated in a pull request.",
+    "image": "https://avatars.githubusercontent.com/u/465825",
+    "link": "https://github.com/simplybusiness/version-forget-me-not"
   }
 ]
