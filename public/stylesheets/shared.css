@@ -15,6 +15,7 @@ body {
   background-color: #3F3250;
   color: #C0B3A0;
   font-size: 1.1em;
+  margin-bottom: 100px;
 }
 
 div[role="banner"] {
@@ -112,31 +113,13 @@ p {
   display: none;
 }
 
-.blog-image {
-  max-width: 25%;
-  max-height: 50%;
-  display: inline;
-  object-fit: cover;
-  margin: auto;
-}
-
-.blog-post {
-  width: 95%;
-  display: flex;
-  margin: 10px 2.5%;
-}
-
-.blog-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 @media (min-width: 600px) {
-  .blog-post {
-    width: 45%;
+  .title {
+    display: block;
   }
 
-  .title {
+  .bio {
+    max-width: 80%;
     display: block;
   }
 }
