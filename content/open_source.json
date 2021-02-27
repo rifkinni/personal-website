@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Twiglet Ruby: Like a log, only smaller",
+    "description": "A lightweight JSON log formatter compliant with the Elastic Common Schema",
+    "image": "https://avatars.githubusercontent.com/u/465825",
+    "link": "https://github.com/simplybusiness/twiglet-ruby"
+  },
+  {
+    "title": "Github Scientist for Java",
+    "description": "Fixed a concurrency bug where an asynchronous method blocked on the result of a potentially very slow calculation.",
+    "image": "https://avatars.githubusercontent.com/u/9919",
+    "link": "https://github.com/rawls238/Scientist4J/commit/867468d837febec694312b473ae2f18473c2527a"
+  },
+  {
+    "title": "OWASP Railsgoat",
+    "description": "Fixed several bugs and points of confusion in the test suite.",
+    "image": "https://avatars.githubusercontent.com/u/155815",
+    "link": "https://github.com/OWASP/railsgoat/pull/372"
+  },
+  {
+    "title": "Version Forget-Me-Not",
+    "description": "A Github Action for Ruby projects that checks that the semantic version has been updated in a pull request.",
+    "image": "https://avatars.githubusercontent.com/u/465825",
+    "link": "https://github.com/simplybusiness/version-forget-me-not"
+  }
+]

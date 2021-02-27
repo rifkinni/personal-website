@@ -24,8 +24,8 @@ router.get('/cats', function(req, res, next) {
   res.render('cats', { bio: bio() });
 });
 
-router.get('/blog', function(req, res, next) {
-  res.render('blog', { bio: bio(), blog: blog() });
+router.get('/portfolio', function(req, res, next) {
+  res.render('portfolio', { bio: bio(), portfolio: portfolio() });
 });
 
 module.exports = router;
@@ -48,6 +48,9 @@ function bio() {
   return JSON.parse(fs.readFileSync('content/bio.json', 'utf8'));
 }
 
-function blog() {
-  return JSON.parse(fs.readFileSync('content/blog.json', 'utf8'));
+function portfolio() {
+  return {
+    'Blog': JSON.parse(fs.readFileSync('content/blog.json', 'utf8')),
+    'Open Source Contributions': JSON.parse(fs.readFileSync('content/open_source.json', 'utf8'))
+  }
 }
