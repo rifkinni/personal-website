@@ -194,6 +194,7 @@ p {
 
 .blog-image {
   max-width: 25%;
+  max-height: 50%;
   display: inline;
   object-fit: cover;
   margin: auto;
@@ -210,6 +211,10 @@ p {
 .blog-body {
   display: flex;
   flex-wrap: wrap;
+}
+
+.blog-section {
+  display: inline-block;
 }
 
 @media (min-width: 600px) {
