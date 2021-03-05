@@ -4,7 +4,7 @@ var fs = require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('about', { bio: bio() });
+  res.render('portfolio', { bio: bio(), portfolio: portfolio() });
 });
 
 router.get('/about', function(req, res, next) {
