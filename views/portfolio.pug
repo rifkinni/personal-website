@@ -2,12 +2,10 @@ extends layout
 
 block content
   each category in Object.keys(portfolio)
-    div(class='blog-section margin--medium')
-      h2(class="content-section-title")= category
-      div(class="blog-body")
-        each entry in portfolio[category]
-          div(class="blog-post clickable" onclick="window.open('" + entry.link + "')")
-            img(src=entry.image class="blog-image")
-            div
-              h3(class="margin--medium pink")= entry.title
-              p(class="description margin--medium")!= entry.description
+    div(class="blog-body")
+      each entry in portfolio[category]
+        div(class="blog-post clickable" onclick="window.open('" + entry.link + "')")
+          img(src=entry.image class="blog-image")
+          div
+            h3(class="margin--medium pink")= entry.title
+            p(class="description margin--medium")!= entry.description
